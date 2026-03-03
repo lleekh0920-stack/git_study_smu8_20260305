@@ -7,7 +7,7 @@ public class Main {
         System.out.println("test");
         System.out.println("test");
         System.out.println("test");
-        System.out.println("test");
+
 
         for (int i = 1; i <= 5; i++) {
             //TIP <shortcut actionId="Debug"/>을(를) 눌러 코드 디버그를 시작하세요. 1개의 <icon src="AllIcons.Debugger.Db_set_breakpoint"/> 중단점을 설정해 드렸습니다
