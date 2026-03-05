@@ -4,6 +4,9 @@ public class Main {
 
     public void sum(int a,int b){
             System.out.printf("a+b=%d",a+b);
+            System.out.println("hotfix 수정중");
+            System.out.println("hotfix 수정중");
+            System.out.println("hotfix 수정중");
         }
 
     public void b(){
