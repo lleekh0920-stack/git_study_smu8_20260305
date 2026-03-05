@@ -16,8 +16,10 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("test");
         //test가 너무 많이 출력돼서 지움
-
+        int c=3;
+        int b=5;
         boolean a=true;
+        System.out.println(c+b);
         while(a){
             System.out.println("병합 충돌 테스트");
             System.out.println("병합 충돌 테스트");
