@@ -13,10 +13,10 @@ public class Main {
         System.out.println("기능 b 추가 구현");
     }
 
-
     public static void main(String[] args) {
         System.out.println("test");
         //test가 너무 많이 출력돼서 지움
+
         boolean a=true;
         while(a){
             System.out.println("병합 충돌 테스트");
@@ -26,8 +26,15 @@ public class Main {
             System.out.println("병합 충돌 테스트");
         }
 
-        for (int i = 1; i <= 5; i++) {
+        int score=77;
+        String grade=switch (score/10){
 
+            case 7->"c";
+
+            default -> throw new IllegalStateException("Unexpected value: " + score);
+        };
+
+        for (int i = 1; i <= 5; i++) {
             System.out.println("i = " + i);
         }
     }
