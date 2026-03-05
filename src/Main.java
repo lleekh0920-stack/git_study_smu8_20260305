@@ -20,6 +20,9 @@ public class Main {
         int b=5;
         boolean a=true;
         System.out.println(c+b);
+        for(int i=0; i>=5;i++){
+            System.out.println("한번 더 간다!");
+        }
         while(a){
             System.out.println("병합 충돌 테스트");
             System.out.println("병합 충돌 테스트");
